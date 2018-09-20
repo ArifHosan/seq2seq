@@ -1,10 +1,10 @@
+from Util import *
 from AttnDecoderRNN import AttnDecoderRNN
 from EncoderRNN import EncoderRNN
-from Util import *
 from evaluate import evaluateRandomly, evaluate, evaluateAndShowAttention
 from trainer import trainIters
 
-input_lang, output_lang, pairs = prepareData('eng', 'fra', False)
+input_lang, output_lang, pairs = prepareData('eng', 'ben', False)
 print(random.choice(pairs))
 
 hidden_size = 256
@@ -25,9 +25,7 @@ output_words, attentions = evaluate(encoder1, attn_decoder1, "you worried ?", in
 plt.matshow(attentions.numpy())
 plt.savefig("plots/attentions")
 
-
 evaluateAndShowAttention("is there a hospital nearby .", encoder1,attn_decoder1,input_lang,output_lang)
 evaluateAndShowAttention("take good care of yourself .", encoder1,attn_decoder1,input_lang,output_lang)
 evaluateAndShowAttention("i accepted her invitation .", encoder1,attn_decoder1,input_lang,output_lang)
 evaluateAndShowAttention("we made mistakes .", encoder1,attn_decoder1,input_lang,output_lang)
-
