@@ -11,5 +11,3 @@
 - BLEU vs Accruacy. ([Arif](Arif.md#bleu-vs-accruacy), [Razib](Razib.md#bleu-vs-accruacy), [Sakib](Sakib.md#bleu-vs-accruacy), [Soaib](Soaib.md#bleu-vs-accruacy))
 - What is preprocessing/ postprocessing? ([Arif](Arif.md#what-is-preprocessing-postprocessing), [Razib](Razib.md#what-is-preprocessing-postprocessing), [Sakib](Sakib.md#what-is-preprocessing-postprocessing), [Soaib](Soaib.md#what-is-preprocessing-postprocessing))
 - How to improve accuracy? And most important, workflow of the code. ([Arif](Arif.md#how-to-improve-accuracy-and-most-important-workflow-of-the-code), [Razib](Razib.md#how-to-improve-accuracy-and-most-important-workflow-of-the-code), [Sakib](Sakib.md#how-to-improve-accuracy-and-most-important-workflow-of-the-code), [Soaib](Soaib.md#how-to-improve-accuracy-and-most-important-workflow-of-the-code))
-
-[![CircleCI](https://img.shields.io/circleci/project/github/ntkme/github-buttons.svg)](https://circleci.com/gh/ntkme/github-buttons)
