@@ -1,4 +1,5 @@
 from __future__ import unicode_literals, print_function, division
+import matplotlib.pyplot as plt
 from io import open, StringIO
 import unicodedata
 import string
@@ -10,9 +11,7 @@ import torch
 import torch.nn as nn
 from torch import optim
 import torch.nn.functional as F
-import matplotlib.pyplot as plt
-plt.switch_backend('agg')
-
+# plt.switch_backend('agg')
 from Language import Lang
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")

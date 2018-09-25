@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import time
 import math
 import matplotlib.ticker as ticker
@@ -32,6 +33,7 @@ def showPlot(points, filename = "loss.png"):
 
 def showAttention(input_sentence, output_words, attentions):
     # Set up figure with colorbar
+    plt.rc('font', family='SolaimanLipi')
     fig = plt.figure()
     ax = fig.add_subplot(111)
     cax = ax.matshow(attentions.numpy(), cmap='bone')
@@ -48,6 +50,6 @@ def showAttention(input_sentence, output_words, attentions):
 
     plt.show()
     try:
-        plt.savefig("plots/" + input_sentence)
+        plt.savefig("plots/" + input_sentence+".png")
     except:
         pass
