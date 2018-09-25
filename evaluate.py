@@ -1,6 +1,7 @@
 import torch
 import random
 
+from BLEU import calculate_bleu
 from Helper import showAttention
 from Util import tensorFromSentence, MAX_LENGTH, DEVICE, SOS_token, EOS_token
 
@@ -49,6 +50,8 @@ def evaluateRandomly(encoder, decoder, input_lang, output_lang, pairs, n=10):
         output_words, attentions = evaluate(encoder, decoder, pair[0], input_lang,output_lang)
         output_sentence = ' '.join(output_words)
         print('<', output_sentence)
+        output_words.pop(-1)
+        calculate_bleu(pair[1], ' '.join(output_words))
         print('')
 
 
