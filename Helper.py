@@ -39,9 +39,9 @@ def showAttention(input_sentence, output_words, attentions):
     cax = ax.matshow(attentions.numpy(), cmap='bone')
     fig.colorbar(cax)
 
+
     # Set up axes
-    ax.set_xticklabels([''] + input_sentence.split(' ') +
-                       ['<EOS>'], rotation=90)
+    ax.set_xticklabels([''] + input_sentence.split(' ') + ['<EOS>'], rotation=90)
     ax.set_yticklabels([''] + output_words)
 
     # Show label at every tick
@@ -50,6 +50,6 @@ def showAttention(input_sentence, output_words, attentions):
 
     plt.show()
     try:
-        plt.savefig("plots/" + input_sentence+".png")
+        plt.savefig("plots/" + input_sentence +".png")
     except:
         pass
