@@ -121,6 +121,7 @@ def calculate_bleu(candidate, reference):
     candidate = [candidate]
     bleu = BLEU(candidate, reference)
     print("BLEU Score: ",bleu)
+    return bleu
 
 
 if __name__ == "__main__":

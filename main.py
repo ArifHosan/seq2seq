@@ -7,7 +7,7 @@ from evaluate import evaluateRandomly, evaluate, evaluateAndShowAttention
 from trainer import trainIters
 
 input_lang, output_lang, pairs = prepareData('eng', 'ben', False)
-print(random.choice(pairs))
+# print(random.choice(pairs))
 
 hidden_size = 256
 # encoder1 = EncoderRNN(input_lang.n_words, hidden_size).to(DEVICE)
@@ -22,12 +22,13 @@ hidden_size = 256
 encoder1 = load_model("model/en")
 attn_decoder1 = load_model("model/de")
 
-evaluateRandomly(encoder1, attn_decoder1, input_lang, output_lang, pairs)
+evaluateRandomly(encoder1, attn_decoder1, input_lang, output_lang, pairs,100)
 output_words, attentions = evaluate(encoder1, attn_decoder1, "you worried ?", input_lang, output_lang)
 plt.matshow(attentions.numpy())
 plt.savefig("plots/attentions")
 
-evaluateAndShowAttention("is there a hospital nearby .", encoder1,attn_decoder1,input_lang,output_lang)
-evaluateAndShowAttention("take good care of yourself .", encoder1,attn_decoder1,input_lang,output_lang)
-evaluateAndShowAttention("i accepted her invitation .", encoder1,attn_decoder1,input_lang,output_lang)
-evaluateAndShowAttention("we made mistakes .", encoder1,attn_decoder1,input_lang,output_lang)
+# evaluateAndShowAttention("is there a hospital nearby .", encoder1,attn_decoder1,input_lang,output_lang)
+# evaluateAndShowAttention("take good care of yourself .", encoder1,attn_decoder1,input_lang,output_lang)
+# evaluateAndShowAttention("i accepted her invitation .", encoder1,attn_decoder1,input_lang,output_lang)
+# evaluateAndShowAttention("we made mistakes .", encoder1,attn_decoder1,input_lang,output_lang)
+# evaluateAndShowAttention("don't speak ill of others", encoder1,attn_decoder1,input_lang,output_lang)

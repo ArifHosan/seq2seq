@@ -43,6 +43,7 @@ def evaluate(encoder, decoder, sentence, input_lang, output_lang, max_length=MAX
 
 
 def evaluateRandomly(encoder, decoder, input_lang, output_lang, pairs, n=10):
+    total_bleu = 0
     for i in range(n):
         pair = random.choice(pairs)
         print('>', pair[0])
@@ -51,9 +52,9 @@ def evaluateRandomly(encoder, decoder, input_lang, output_lang, pairs, n=10):
         output_sentence = ' '.join(output_words)
         print('<', output_sentence)
         output_words.pop(-1)
-        calculate_bleu(pair[1], ' '.join(output_words))
+        total_bleu += calculate_bleu(pair[1], ' '.join(output_words))
         print('')
-
+    print("Average BLEU: ",total_bleu/n)
 
 def evaluateAndShowAttention(input_sentence, encoder1, attn_decoder1, input_lang, output_lang):
     output_words, attentions = evaluate(
