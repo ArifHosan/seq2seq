@@ -18,6 +18,8 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 SOS_token = 0
 EOS_token = 1
 MAX_LENGTH = 10
+TEST_SET = None
+TRAIN_PERCENTAGE = 90
 
 eng_prefixes = (
     "i am ", "i m ",
@@ -70,6 +72,8 @@ def prepareData(lang1, lang2, reverse=False):
     print("Read %s sentence pairs" % len(pairs))
     pairs = filterPairs(pairs)
     print("Trimmed to %s sentence pairs" % len(pairs))
+    pairs = split_test(pairs)
+    print("Split to %s sentence pairs" % len(pairs))
     print("Counting words...")
     for pair in pairs:
         input_lang.addSentence(pair[0])
@@ -94,6 +98,20 @@ def tensorsFromPair(input_lang, output_lang, pair):
     input_tensor = tensorFromSentence(input_lang, pair[0])
     target_tensor = tensorFromSentence(output_lang, pair[1])
     return (input_tensor, target_tensor)
+
+
+def split_test(pairs):
+    random.shuffle(pairs)
+    data_size = len(pairs)
+    train_size = int(data_size * TRAIN_PERCENTAGE / 100.0)
+    global TEST_SET
+    TEST_SET = pairs[train_size:]
+    return pairs[:train_size]
+
+
+def get_test_data():
+    global TEST_SET
+    return TEST_SET
 
 
 def save_model(model, path):

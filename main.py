@@ -22,10 +22,18 @@ hidden_size = 256
 encoder1 = load_model("model/en")
 attn_decoder1 = load_model("model/de")
 
-evaluateRandomly(encoder1, attn_decoder1, input_lang, output_lang, pairs,100)
+test_data = get_test_data()
+if test_data is None:
+    test_data = pairs
+
+evaluateRandomly(encoder1, attn_decoder1, input_lang, output_lang, test_data,100)
 output_words, attentions = evaluate(encoder1, attn_decoder1, "you worried ?", input_lang, output_lang)
 plt.matshow(attentions.numpy())
 plt.savefig("plots/attentions")
+
+# while True:
+#     input_data = input(">")
+#     evaluateAndShowAttention(input_data,encoder1,attn_decoder1,input_lang,output_lang)
 
 # evaluateAndShowAttention("is there a hospital nearby .", encoder1,attn_decoder1,input_lang,output_lang)
 # evaluateAndShowAttention("take good care of yourself .", encoder1,attn_decoder1,input_lang,output_lang)
