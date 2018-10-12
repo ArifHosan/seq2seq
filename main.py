@@ -1,10 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 from Util import *
 from AttnDecoderRNN import AttnDecoderRNN
 from EncoderRNN import EncoderRNN
-from evaluate import evaluateRandomly, evaluate, evaluateAndShowAttention
+from evaluate import evaluateRandomly, evaluate, evaluateAndShowAttention, evaluate_all_test
 from trainer import trainIters
+
+
+def take_input():
+    while True:
+        sentence = input(">>")
+        if sentence == "#":
+            break
+        evaluateAndShowAttention(sentence, encoder1,attn_decoder1,input_lang,output_lang)
+
 
 input_lang, output_lang, pairs = prepareData('eng', 'ben', False)
 # print(random.choice(pairs))
@@ -22,13 +32,18 @@ hidden_size = 256
 encoder1 = load_model("model/en")
 attn_decoder1 = load_model("model/de")
 
-evaluateRandomly(encoder1, attn_decoder1, input_lang, output_lang, pairs,100)
-output_words, attentions = evaluate(encoder1, attn_decoder1, "you worried ?", input_lang, output_lang)
-plt.matshow(attentions.numpy())
-plt.savefig("plots/attentions")
+# evaluateRandomly(encoder1, attn_decoder1, input_lang, output_lang, pairs,100)
+# output_words, attentions = evaluate(encoder1, attn_decoder1, "you worried ?", input_lang, output_lang)
+# plt.matshow(attentions.numpy())
+# plt.savefig("plots/attentions")
 
-# evaluateAndShowAttention("is there a hospital nearby .", encoder1,attn_decoder1,input_lang,output_lang)
+# evaluateAndShowAttention("is there a mosque nearby .", encoder1,attn_decoder1,input_lang,output_lang)
 # evaluateAndShowAttention("take good care of yourself .", encoder1,attn_decoder1,input_lang,output_lang)
 # evaluateAndShowAttention("i accepted her invitation .", encoder1,attn_decoder1,input_lang,output_lang)
 # evaluateAndShowAttention("we made mistakes .", encoder1,attn_decoder1,input_lang,output_lang)
-# evaluateAndShowAttention("don't speak ill of others", encoder1,attn_decoder1,input_lang,output_lang)
+# evaluateAndShowAttention("do not speak ill of others", encoder1,attn_decoder1,input_lang,output_lang)
+
+test_pairs = read_test()
+evaluate_all_test(encoder1,attn_decoder1,input_lang,output_lang,test_pairs)
+# take_input()
+

@@ -81,7 +81,13 @@ def prepareData(lang1, lang2, reverse=False):
 
 
 def indexesFromSentence(lang, sentence):
-    return [lang.word2index[word] for word in sentence.split(' ')]
+    indexes = []
+    for word in sentence.split(' '):
+        if word in lang.word2index:
+            indexes.append(lang.word2index[word])
+        else:
+            indexes.append(SOS_token)
+    return indexes
 
 
 def tensorFromSentence(lang, sentence):
@@ -111,3 +117,11 @@ def save_model_param(model, path):
 def load_model_param(model, path):
     model.load_state_dict(torch.load(path))
     return model
+
+
+def read_test():
+    print("Reading lines...")
+    lines = open('data/test.txt', encoding='utf-8').read().strip().split('\n')
+
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
+    return pairs

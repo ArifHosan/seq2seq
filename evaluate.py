@@ -62,3 +62,19 @@ def evaluateAndShowAttention(input_sentence, encoder1, attn_decoder1, input_lang
     print('input =', input_sentence)
     print('output =', ' '.join(output_words))
     showAttention(input_sentence, output_words, attentions)
+
+
+def evaluate_all_test(encoder, decoder, input_lang, output_lang, pairs):
+    total_bleu = 0
+    n = len(pairs)
+    for i in range(n):
+        pair = pairs[i]
+        print('>', pair[0])
+        print('=', pair[1])
+        output_words, attentions = evaluate(encoder, decoder, pair[0], input_lang,output_lang)
+        output_sentence = ' '.join(output_words)
+        print('<', output_sentence)
+        output_words.pop(-1)
+        total_bleu += calculate_bleu(pair[1], ' '.join(output_words))
+        print('')
+    print("Average BLEU: ",total_bleu/n)
