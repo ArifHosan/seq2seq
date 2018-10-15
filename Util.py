@@ -120,8 +120,21 @@ def load_model_param(model, path):
 
 
 def read_test():
-    print("Reading lines...")
+    print("Reading test...")
     lines = open('data/test.txt', encoding='utf-8').read().strip().split('\n')
 
     pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
     return pairs
+
+
+def read_dict():
+    print("Reading dict...")
+    lines = open('data/dict.txt', encoding='utf-8').read().strip().split('\n')
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
+    dict = {}
+    for pair in pairs:
+        if len(pair) != 2:
+            continue
+        if not pair[0] in dict:
+            dict[pair[0]] = pair[1]
+    return dict
