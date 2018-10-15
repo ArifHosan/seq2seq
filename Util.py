@@ -43,6 +43,8 @@ def normalizeString(s):
 def readLangs(lang1, lang2, reverse=False):
     print("Reading lines...")
     lines = open('data/%s-%s.txt' % (lang1, lang2), encoding='utf-8').read().strip().split('\n')
+    #lines = open('data/train-data.txt', encoding='utf-8').read().strip().split('\n')
+    #lines = open('data/sust-eng-ben.txt', encoding='utf-8').read().strip().split('\n')
 
     pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
     if reverse:
