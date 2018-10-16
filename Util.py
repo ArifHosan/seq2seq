@@ -17,10 +17,7 @@ from Language import Lang
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 SOS_token = 0
 EOS_token = 1
-MAX_LENGTH = 30
-TRAIN_PERCENTAGE = 80
-TRAIN_SET = None
-TEST_SET = None
+MAX_LENGTH = 10
 
 eng_prefixes = (
     "i am ", "i m ",
@@ -36,29 +33,18 @@ def unicodeToAscii(s):
     return ''.join(c for c in unicodedata.normalize('NFD', s)if unicodedata.category(c) != 'Mn')
 
 
-def normalize_string(s):
+def normalizeString(s):
     s = unicodeToAscii(s.lower().strip())
     s = re.sub(r"([.!?।])", r" \1", s)
     #s = re.sub(r"[^a-zA-Z.!?]+", r" ", s)
     return s
 
 
-def read_langs(lang1, lang2, reverse=False):
+def readLangs(lang1, lang2, reverse=False):
     print("Reading lines...")
-    # lines = open('data/%s-%s.txt' % (lang1, lang2), encoding='utf-8').read().strip().split('\n')
-    lines = open('data/sust.txt', encoding='utf-8').read().strip().split('\n')
+    lines = open('data/%s-%s.txt' % (lang1, lang2), encoding='utf-8').read().strip().split('\n')
 
-    pairs = [[normalize_string(s) for s in l.split('\t')] for l in lines]
-
-    train_set, test_set = split_lang(pairs)
-    print(len(train_set))
-    print(len(test_set))
-    pairs = train_set
-    global TEST_SET, TRAIN_SET
-    TEST_SET = test_set
-    TRAIN_SET = train_set
-
-
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
     if reverse:
         pairs = [list(reversed(p)) for p in pairs]
         input_lang = Lang(lang2)
@@ -71,11 +57,8 @@ def read_langs(lang1, lang2, reverse=False):
 
 
 def filterPair(p):
-    try:
-        is_good_length = len(p[0].split(' ')) < MAX_LENGTH and len(p[1].split(' ')) < MAX_LENGTH
-        return is_good_length
-    except:
-        return False
+    is_good_length = len(p[0].split(' ')) < MAX_LENGTH and len(p[1].split(' ')) < MAX_LENGTH
+    return is_good_length
 
 
 def filterPairs(pairs):
@@ -83,7 +66,7 @@ def filterPairs(pairs):
 
 
 def prepareData(lang1, lang2, reverse=False):
-    input_lang, output_lang, pairs = read_langs(lang1, lang2, reverse)
+    input_lang, output_lang, pairs = readLangs(lang1, lang2, reverse)
     print("Read %s sentence pairs" % len(pairs))
     pairs = filterPairs(pairs)
     print("Trimmed to %s sentence pairs" % len(pairs))
@@ -98,13 +81,13 @@ def prepareData(lang1, lang2, reverse=False):
 
 
 def indexesFromSentence(lang, sentence):
-    index_array = []
+    indexes = []
     for word in sentence.split(' '):
-        try:
-            index_array.append(lang.word2index[word])
-        except:
-            index_array.append(0)
-    return index_array
+        if word in lang.word2index:
+            indexes.append(lang.word2index[word])
+        else:
+            indexes.append(SOS_token)
+    return indexes
 
 
 def tensorFromSentence(lang, sentence):
@@ -116,18 +99,7 @@ def tensorFromSentence(lang, sentence):
 def tensorsFromPair(input_lang, output_lang, pair):
     input_tensor = tensorFromSentence(input_lang, pair[0])
     target_tensor = tensorFromSentence(output_lang, pair[1])
-    return input_tensor, target_tensor
-
-
-def split_lang(sentence_pairs):
-    random.shuffle(sentence_pairs)
-    total_len = len(sentence_pairs)
-    train_len = int(total_len * TRAIN_PERCENTAGE / 100.0)
-    return sentence_pairs[:train_len],sentence_pairs[train_len:]
-
-
-def get_test_set():
-    return TEST_SET
+    return (input_tensor, target_tensor)
 
 
 def save_model(model, path):
@@ -145,3 +117,24 @@ def save_model_param(model, path):
 def load_model_param(model, path):
     model.load_state_dict(torch.load(path))
     return model
+
+
+def read_test():
+    print("Reading test...")
+    lines = open('data/test-test.txt', encoding='utf-8').read().strip().split('\n')
+
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
+    return pairs
+
+
+def read_dict():
+    print("Reading dict...")
+    lines = open('data/dict.txt', encoding='utf-8').read().strip().split('\n')
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
+    dict = {}
+    for pair in pairs:
+        if len(pair) != 2:
+            continue
+        if not pair[0] in dict:
+            dict[pair[0]] = pair[1]
+    return dict

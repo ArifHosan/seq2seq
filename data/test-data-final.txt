@@ -1,0 +1,83 @@
+tell me which you want .	তোর কোনটা দরকার আমাকে বল ।
+i eat rice now .	আমি এখন ভাত খাই ।
+how old is your mother ?	আপনার মায়ের বয়স কত ?
+I don't agree with you .	আমি তোমার সাথে একমত নই ।
+He went to the dentist .	সে দাঁতের ডাক্তারের কাছে গিয়েছিলো ।
+What are you here for ?	তুই এখানে কি জন্য এসেছিস ?
+What does your son do ?	তোর ছেলে কি করে ?
+Can you play the piano ?	আপনি পিয়ানো বাজাতে পারেন ?
+I was in the mountain.	আমি পাহাডে ছিলাম  ।
+Do you have any others ?	তোর কাছে কি আর কিছু আছে ?
+She is my younger sister .	সে আমার ছোটো বোন ।
+The experiment failed.	গবেষণাটি ব্যর্থ হলো ।
+You are not paying attention .	তুমি মনোযোগ দিচ্ছো না ।
+Have you ever eaten raw fish ?	তুই কখনো কাঁচা মাছ খেয়েছিস ?
+You're so impatient .	তুমি বড্ড অধৈর্য্য ।
+Have you ever been to dhaka ?	আপনি কি কখনো ঢাকা গেছেন ?
+I don't use Twitter anymore .	আমি আর টুইটার ব্যবহার করি না ।
+Some people started laughing .	অনেকে হাসতে শুরু করলো ।
+Only one language is never enough .	মাত্র একটি ভাষা যথেষ্ট নয় ।
+That's because you're a girl .	তার কারণ আপনি একজন মেয়ে ।
+He is a very important person .	উনি একজন অতি গুরুত্বপূর্ণ ব্যক্তি ।
+When does the next car leave ?	পরের গাড়িটি কখন ছাড়বে ?
+When does the next train leave ?	পরের ট্রেনটি কখন ছাড়বে ?
+How many days will you stay ?	আপনি কত দিন থাকবেন ?
+I am looking for a good train .	আমি একটা ভাল ট্রেন খুঁজছি ।
+He always keeps his promises .	সে সবসময় তার কথা রাখে ।
+You can eat anything you want .	তোর যেটা ইচ্ছে হয় সেটা খেতে পারিস ।
+He is a doctor .	ইনি একজন ডাক্তার ।
+There's no salt .	এখানে নুন নেই ।
+They're screaming .	তারা চিৎকার করছে ।
+He agree with you .	সে আপনার সাথে একমত ।
+His stomach hurts .	তারপেট ব্যাথা করছে ।
+What's his name ?	ওনার নাম কি ?
+He is a doctor .	সে একজন ডাক্তার ।
+They now lives in Boston .	তারা এখন বস্টনে থাকে ।
+He was raised in France .	উনি ফ্রান্সে বড়ো হয়েছেন ।
+He was raised in France .	ও ফ্রান্সে বড়ো হয়েছে ।
+This is driving him crazy .	এটা তাকে পাগল করে দিচ্ছে ।
+Are they eating out tonight ?	তারা কি আজ বাইরে খাবো ?
+He can eat all you want .	তার যত ইচ্ছে তত খেতে পারে ।
+He must go to the dentist .	তার দাঁতের ডাক্তারের কাছে যাওয়া উচিৎ ।
+I don't like to drink tea .	আমার চা খেতে ভালো লাগে না ।
+I don't use Twitter anymore .	আমি আর টুইটার ব্যবহার করি না ।
+I don't want to be like this .	আমি এইরকম হতে চাই না ।
+I used to swim in this pond .	আমি এই পুকুরে সাঁতার কাটতাম ।
+I'd like to book my ticket .	আমি আমার টিকিটটি বুক করতে চাই ।
+I'm sorry I kept him waiting .	আমাকে ক্ষমা করবেন আমি তাহাকে অপেক্ষা করিয়ে রেখেছিলাম ।
+I'm sorry I kept him waiting .	আমাকে ক্ষমা করবে আমি তাকে অপেক্ষা করিয়ে রেখেছিলাম ।
+What time does the train leave ?	ট্রেনটা কটার সময় ছাড়ে ?
+I couldn't move my left foot .	আমি আমার নাম পাটা নাড়াতে পারিনি ।
+I just don't know what to say .	আমি জানিনা ঠিক কি বলবো ।
+What time does the bus leave ?	বাসটা কটার সময় ছাড়ে ?
+When do you usually go to school ?	আপনি সাধারণত কটার সময় স্কুলে যান ?
+When do you usually go to school ?	তুমি সাধারণত কটার সময় স্কুলে যাও ?
+Where are you going on Sunday ?	রবিবার আপনি কোথায় যাচ্ছেন ?
+Where can I buy that book ?	আমি ওই বইটা কোথা থেকে কিনতে পারব ?
+You can't eat anything you want . 	আপনার যেটা ইচ্ছে হয় সেটা খেতে পারেন না ।
+You can't eat anything you want .	তোমার যেটা ইচ্ছে হয় সেটা খেতে পারো না ।
+Please show me the red shirt .	আমাকে একটু লাল জামাটা দেখাবেন ।
+Please wait till I comes back .	আমি আসা পর্যন্ত দয়া করে অপেক্ষা করুন ।
+She can say whatever she wants .	তার যা ইচছে সে বলতে পারেন ।
+Finish that as soon as possible .	যত তাড়াতাড়ি সম্ভব ওটা শেষ করুন ।
+Finish that as soon as possible .	যত তাড়াতাড়ি সম্ভব ওটা শেষ কর ।
+How do you write your first name ?	আপনার প্রথম নামটি কিভাবে লেখেন ?
+My mother is always getting angry .	আমার মা সবসময় রেগে যান ।
+My mother is very good at fishing .	আমার মা মাছ ধরাতে খুব ভাল ।
+She doesn't want to talk about that .	সে ওই বিষয় কথা বলতে চান না ।
+I'm going to study English next year .	আমি পরের বছর ইংরেজি শিখবো ।
+The audience was mostly teacher .	দর্শকদের মধ্যে বেশিরভাগই শিক্ষক ছিলেন ।
+He certainly plays the guitar well .	সে গীটারটা সত্যিই খুব ভালো বাজায় ।
+Turn left at the next intersection .	পরের মোড়টায় বামদিকে বেঁকে যাবেন ।
+I can't sleep because of the noise .	আওয়াজের জন্য আমি ঘুমাতে পারছি না ।
+What time does the dining room close ?	খাবার ঘরটা কখন বন্ধ হয় ?
+Go there.	ঐখানে যাও।
+Help please.	অনুগ্রহ করে সাহাযয করন।
+Go and run.	পালাও দৌডাও।
+I received her letter.	আমি তার চিঠি পেয়েছি।
+Who are they?	ওরা কারা?
+complete as soon as possible.	যত তাডাতাডি সমভব শেষ কর।
+complete as soon as possible.	যত তাডাতাডি সমভব শেষ কর।
+I won.	আমি জিতে গেছে।
+Help them.	তাদের সাহাযয করো ।
+I saw you.	আমি তোমাকে দেখেছিলাম।

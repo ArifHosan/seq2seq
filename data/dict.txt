@@ -1,0 +1,4 @@
+hello	hello
+hi	bye
+hi	hye
+tomorrow	আগামীকাল

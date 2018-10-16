@@ -1,0 +1,1297 @@
+/home/sakib/.virtualenvs/Machine_Translation/bin/python "/home/sakib/Desktop/Machine Translation/main.py"
+Reading lines...
+Read 4379 sentence pairs
+Trimmed to 4105 sentence pairs
+Counting words...
+Counted words:
+eng 1781
+ben 2684
+Reading test...
+> tell me which you want  .
+= তোর কোনটা দরকার আমাকে বল  ।
+< তোমার কোনটা দরকার আমাকে বলন । <EOS>
+BLEU Score:  0.4054801330382267
+
+> you are younger than me  .
+= তমি আমার থেকে ছোট  ।
+< আপনি আমার কাছে খজে বসে আছেন । <EOS>
+BLEU Score:  0.0
+
+> i am in the mountains  .
+= আমি পাহাডে আছি  ।
+< আমি পাহাডে ছিলাম । <EOS>
+BLEU Score:  0.0
+
+> you are really embarrassed  .
+= তমি সতযিই লজজিত  ।
+< আপনি সতযিই খব ফযাকাশে ছিলেন । <EOS>
+BLEU Score:  0.0
+
+> how old is your mother  ?
+= আপনার মাযের বযস কত  ?
+< তোমার ঠাকরদার বযস কত ? <EOS>
+BLEU Score:  0.4641588833612779
+
+> i don't agree with you  .
+= আমি তোমার সাথে একমত নই  ।
+< আমি আপনার সাথে একমত নই । <EOS>
+BLEU Score:  0.6299605249474366
+
+> i received your letter  .
+= আমি তোর চিঠি পেযেছি  ।
+< আমি তোমার বনধ, উততর করব । <EOS>
+BLEU Score:  0.0
+
+> he went to the dentist  .
+= সে দাতের ডাকতারের কাছে গিযেছিলো  ।
+< উনি দাতের ডাকতারের কাছে গেছিলেন । <EOS>
+BLEU Score:  0.4054801330382267
+
+> what are you here for  ?
+= তই এখানে কি জনয এসেছিস  ?
+< তমি এখানে কি জনয এসেছো ? <EOS>
+BLEU Score:  0.4054801330382267
+
+> what does your son do  ?
+= তোর ছেলে কি করে  ?
+< তোমার ছেলে কি করে ? <EOS>
+BLEU Score:  0.7368062997280773
+
+> can you play the piano  ?
+= তই পিযানো বাজাতে পারিস  ?
+< আপনি পিযানো বাজাতে পার ? <EOS>
+BLEU Score:  0.0
+
+> do you have any others  ?
+= তোর কাছে কি আর কিছ আছে  ?
+< আপনার কাছে কি আর কিছ আছে ? <EOS>
+BLEU Score:  0.8298265333662435
+
+> she's my older sister  .
+= সে আমার বডো বোন  ।
+< ও আমার ছেলে শেষ । <EOS>
+BLEU Score:  0.0
+
+> the experiment failed  .
+= গবেষণাটি বযরথ হলো  ।
+< গবেষণাটি বযরথ হলো হলো । <EOS>
+BLEU Score:  0.6181345911606029
+
+> you're not paying attention  .
+= তমি মনোযোগ দিচছো না  ।
+< আপনি কিনত মনোযোগ দিচছেন করতে পারবেন না । <EOS>
+BLEU Score:  0.0
+
+> tom's hiding something  .
+= টম কিছ লকাচছে  ।
+< সবাই কিছ করার । । <EOS>
+BLEU Score:  0.0
+
+> have you ever eaten raw fish  ?
+= তই কখনো কাচা মাছ খেযেছিস  ?
+< আপনি কখনো কাচা মাছ খেযেছেন ? <EOS>
+BLEU Score:  0.4054801330382267
+
+> democracy encourages people  .
+= গণতনতর মানষকে অনপরাণিত করে  ।
+< টম অনেক উপসথিত ছিলেন । <EOS>
+BLEU Score:  0.0
+
+> i heard tom was in trouble  .
+= আমি শনলাম টম ঝামেলায পরেছিল  ।
+< আমার মাযের টম আর পরেছিল । <EOS>
+BLEU Score:  0.0
+
+> you're so impatient  .
+= তমি বডড অধৈরযয  ।
+< আপনি আমার পরতি বডড অধৈরযয । <EOS>
+BLEU Score:  0.3820903727892856
+
+> have you ever been to dhaka  ?
+= আপনি কি কখনো ঢাকা গেছেন  ?
+< আপনি কি কখনো করেছেন ? <EOS>
+BLEU Score:  0.4054801330382267
+
+> he is an experienced master  .
+= তিনি একজন অভিজঞ শিকষক  ।
+< ভেতরে একটা ঘর হযেছেন । <EOS>
+BLEU Score:  0.0
+
+> have you ever ridden a horse  ?
+= তই কখনো ঘোডায চডেছিস  ?
+< আপনি কখনো ঘোডায চডেছেন ? <EOS>
+BLEU Score:  0.0
+
+> i don't use twitter anymore  .
+= আমি আর টইটার বযবহার করি না  ।
+< আমি আর ফেসবক বযবহার করি না । <EOS>
+BLEU Score:  0.6114214174657597
+
+> some people started laughing  .
+= অনেকে হাসতে শর করলো  ।
+< কেউ লোক ঘর শর করলো । <EOS>
+BLEU Score:  0.38002115212221427
+
+> only one language is never enough  .
+= মাতর একটি ভাষা যথেষট নয  ।
+< আমরা একটি ভাষা যথেষট নয । <EOS>
+BLEU Score:  0.7937005259840998
+
+> that's because you're a girl  .
+= তার কারণ আপনি একজন মেযে  ।
+< তার কারণ আপনি একজন গরম দিন । <EOS>
+BLEU Score:  0.5332500717705028
+
+> he is a very important person  .
+= উনি একজন অতি গরতবপরণ বযকতি  ।
+< ও একজন গরতবপরণ বযকতি । <EOS>
+BLEU Score:  0.4054801330382267
+
+> when does the next car leave  ?
+= পরের গাডিটি কখন ছাডবে  ?
+< পরের বাসটি কখন ছাডবে ? <EOS>
+BLEU Score:  0.5108729549290354
+
+> when does the next train leave  ?
+= পরের টরেনটি কখন ছাডবে  ?
+< পরের টরেনটা কখন খোলা ? <EOS>
+BLEU Score:  0.0
+
+> how many days will you stay  ?
+= আপনারা কত দিন থাকবেন  ?
+< আপনি কত রাতরি থাকবেন ? <EOS>
+BLEU Score:  0.0
+
+> i am looking for a good train  .
+= আমি একটা ভাল টরেন খজছি  ।
+< আমি একটা ভাল হোটেল খজছি । <EOS>
+BLEU Score:  0.5
+
+> i don't go to work on fridays  .
+= আমি শকরবার করে কাজে যাই না  ।
+< আমি ঠিক হতে শর করলো না । <EOS>
+BLEU Score:  0.0
+
+> i'm very good at swimming  .
+= আমি সাতারে খব ভালো  ।
+< আমি সতযিই ভালো একটা ভালো । <EOS>
+BLEU Score:  0.0
+
+> he always keeps his promises  .
+= সে সবসময তার কথা রাখে  ।
+< উনি সবসময ওনার কথা রাখে । <EOS>
+BLEU Score:  0.4054801330382267
+
+> he certainly is good-looking  .
+= সে সতযিই খব সদরশন  ।
+< উনি একজন অভিজঞ শিকষক । <EOS>
+BLEU Score:  0.0
+
+> you can eat anything you want  .
+= তোর যেটা ইচছে হয সেটা খেতে পারিস  ।
+< তোমার যেটা ইচছে হয সেটা খেতে পারো । <EOS>
+BLEU Score:  0.5984084805885754
+
+> i am going to america  .
+= আমি আমেরিকা যাচছি  ।
+< আমি ঠিক করার চেষটা যাচছি । <EOS>
+BLEU Score:  0.0
+
+> is this the way to home  ?
+= এটা কি বাডিতে যাওযার রাসতা  ?
+< এই বাডির অরথ কী ? <EOS>
+BLEU Score:  0.0
+
+> please wait till i comes back  .
+= আমি আসা পরযনত দযা করে অপেকষা করন  ।
+< আমি আপনার দযা করে অপেকষা করতে পারি । <EOS>
+BLEU Score:  0.3098990471205467
+
+> will you look after his baggage  ?
+= তার মালপতরটা একট দেখবেন  ?
+< আপনার সবামী কী ভাবে ? <EOS>
+BLEU Score:  0.0
+
+> i hardly ever keeps his word  .
+= আমি খব কমই ওনার কথা রাখেন  ।
+< আমরা সহজেই তার কথা খজে পেযেছিলাম । <EOS>
+BLEU Score:  0.0
+
+> i is a bit shorter than mary  .
+= আমি মেরির থেকে একট বেটে  ।
+< আমি একটা গান গাইতে কিনলাম । <EOS>
+BLEU Score:  0.0
+
+> i left without saying a word  .
+= আমি কোনো কথা না বলে চলে গেল  ।
+< আমরা একটা ঘর একটা কথা শনলাম । <EOS>
+BLEU Score:  0.0
+
+> he likes chocolate cake a lot  .
+= সে চকলেট কেক খব পছনদ করে  ।
+< ও আমার কেক খেতে শর । <EOS>
+BLEU Score:  0.0
+
+> you tried to keep from smiling  .
+= তমি না হাসার চেষটা করছিল  ।
+< টম আপনার কাছ থেকে অনেক না । <EOS>
+BLEU Score:  0.0
+
+> your hobby is listening to music  .
+= গান শোনা তোমার নেশা  ।
+< তোমার বাইকটা যে আর ঠিক । <EOS>
+BLEU Score:  0.0
+
+> i can understand your language  .
+= আমি তোমার ভাষা বঝি  ।
+< আমি আপনার ভাষা খেতে পারি । <EOS>
+BLEU Score:  0.0
+
+> you tried to keep your chin up  .
+= তমি তোমার মখ উচ রাখার চেষটা করেছিল  ।
+< তোমার আমি তোমার ফোন নামবারটি । <EOS>
+BLEU Score:  0.0
+
+> your father is out  .
+= তোমার বাবা বাইরে  ।
+< তোমার বাবা আমার মাথা । <EOS>
+BLEU Score:  0.0
+
+> your father smokes  .
+= তোমার বাবা ধমপান করে  ।
+< তোমার বাবা তোমার বনধ করে । <EOS>
+BLEU Score:  0.0
+
+> your glass is full  .
+= তোমার গলাসটি ভরতি  ।
+< তোমার বই তোমার উপর । <EOS>
+BLEU Score:  0.0
+
+> he can beat you  .
+= সে তোমাকে মারতে পারে  ।
+< আপনি এখানে এই বনধ ছিলেন । <EOS>
+BLEU Score:  0.0
+
+> you don't get it  .
+= তমি বঝতে পারছ না  ।
+< আপনি ঠিক করেছেন না । <EOS>
+BLEU Score:  0.0
+
+> he doesn't get it  .
+= সে ঠিক বঝতে পারছে না  ।
+< ও আমার সঙগে এটা পারে । <EOS>
+BLEU Score:  0.0
+
+> he has a cough  .
+= তার কাশি হযেছে  ।
+< তোমার ঠাকরদার আমার মাথা তোমার । <EOS>
+BLEU Score:  0.0
+
+> he likes noodles  .
+= সে নডলস পছনদ করে  ।
+< ও যা বলতে পারেন । <EOS>
+BLEU Score:  0.0
+
+> you prefer black  .
+= তমি কালো পছনদ করি  ।
+< আপনি আর তোমার বনধ করো । <EOS>
+BLEU Score:  0.0
+
+> you said nothing  .
+= তমি কিছই বলনি  ।
+< আপনি কি নিচে পছনদ করে । <EOS>
+BLEU Score:  0.0
+
+> he studies abroad  .
+= উনি বিদেশে পডাশনা করি  ।
+< উনি ফল ছাডা করেন । <EOS>
+BLEU Score:  0.0
+
+> he was coughing  .
+= তিনি কাশছিলেন  ।
+< ও যা কথা বলছিলো । <EOS>
+BLEU Score:  0.0
+
+> he was dreaming  .
+= তিনি সবপন দেখছিলেন  ।
+< উনি যা বলেন । <EOS>
+BLEU Score:  0.0
+
+> you wasn't alone  .
+= তমি একলা ছিলে না  ।
+< আপনি কখনো একা থাকবেন না । <EOS>
+BLEU Score:  0.0
+
+> you went on foot  .
+= তমি পাযে হেটে গেছিলে  ।
+< পাযে হেটে পনেরো নিরভর । <EOS>
+BLEU Score:  0.0
+
+> he is outside  .
+= সে বাইরে আছে  ।
+< উনি একজন ভেতরে । <EOS>
+BLEU Score:  0.0
+
+> are those yours  ?
+= ওইগলো কি তোর  ?
+< সেইগলো কি আপনার বনধ ? <EOS>
+BLEU Score:  0.0
+
+> can you try it on  ?
+= তমি কি এটা পরে দেখতে পার  ?
+< আপনার কি এটা রাখতে পারবেন ? <EOS>
+BLEU Score:  0.0
+
+> can you work here  ?
+= তমি কি এখানে কাজ করতে পার  ?
+< আপনি কি কখনো এখানে অপেকষা করতে পারবেন ? <EOS>
+BLEU Score:  0.0
+
+> give me a kiss  .
+= আমাকে একটা চম দাও  ।
+< আমাকে অনগরহ করে দিন অপেকষা । <EOS>
+BLEU Score:  0.0
+
+> you couldn't walk  .
+= তমি হাটতে পারোনি  ।
+< আপনি আমার পরতি লমবা । <EOS>
+BLEU Score:  0.0
+
+> you deserved that  .
+= তোমার সেটাই পরাপয ছিলো  ।
+< তোমার যেটা সেটা করতে পারেন । <EOS>
+BLEU Score:  0.0
+
+> you didn't forget  .
+= তমি ভলোনি  ।
+< আপনি আর আপনাকে পারেন । <EOS>
+BLEU Score:  0.0
+
+> you didn't listen  .
+= তমি শননি  ।
+< আপনি আমার পরতি রাখো । <EOS>
+BLEU Score:  0.0
+
+> you didn't notice  .
+= তমি লকষয করনি  ।
+< আপনি আমার পরতি রাখো । <EOS>
+BLEU Score:  0.0
+
+> you didn't notice  .
+= তমি খেযাল করনি  ।
+< আপনি আমার পরতি রাখো । <EOS>
+BLEU Score:  0.0
+
+> he is a doctor  .
+= ইনি একজন ডাকতার  ।
+< উনি একজন ডাকতার । <EOS>
+BLEU Score:  0.6299605249474366
+
+> there's no salt  .
+= এখানে নন নেই  ।
+< আমার একটা দেখতে পায । <EOS>
+BLEU Score:  0.0
+
+> this is my wife  .
+= এই আমার সতরী  ।
+< আমার বাবা একজন সরকার । <EOS>
+BLEU Score:  0.0
+
+> she has seen it  .
+= সে ওটা দেখেছে  ।
+< সেটা আমার চাবি ছিলো । <EOS>
+BLEU Score:  0.0
+
+> he walks  .
+= উনি হাটেন  ।
+< উনি এখনো আসেননি । <EOS>
+BLEU Score:  0.0
+
+> he walks  .
+= সে হাটে  ।
+< উনি এখনো আসেননি । <EOS>
+BLEU Score:  0.0
+
+> he walks  .
+= ও হাটে  ।
+< উনি এখনো আসেননি । <EOS>
+BLEU Score:  0.0
+
+> they're different  .
+= তারা অনযরকম  ।
+< তারা ভেতরে আছে । <EOS>
+BLEU Score:  0.0
+
+> they're here, too  .
+= তারাও এখানে আছে  ।
+< টম ওর মাথা বযাথা । <EOS>
+BLEU Score:  0.0
+
+> they're screaming  .
+= তারা চিৎকার করছে  ।
+< তারা চিৎকার করা । <EOS>
+BLEU Score:  0.0
+
+> he is screaming  .
+= সে চেচাচছে  ।
+< ও একজন ডাকতার । <EOS>
+BLEU Score:  0.0
+
+> they've done that  .
+= তারা সেটা করেছে  ।
+< ওই একদম ভলবেন ছিলো । <EOS>
+BLEU Score:  0.0
+
+> they've found tom  .
+= তারা টমকে খজে পেযেছে  ।
+< টম আর কিছ পছনদ করে । <EOS>
+BLEU Score:  0.0
+
+> they've seen them  .
+= তারা তাদেরকে দেখেছে  ।
+< তাদের একটা তাদেরকে দেখেছি । <EOS>
+BLEU Score:  0.0
+
+> do they live here  ?
+= তারা কি এখানে থাকো  ?
+< আপনারা কি ভেতরে রাখতে আছেন ? <EOS>
+BLEU Score:  0.0
+
+> how tall is he  ?
+= সে কতটা লমবা  ?
+< ও কী শিকষক ? <EOS>
+BLEU Score:  0.0
+
+> he agree with you  .
+= সে আপনার সাথে একমত  ।
+< তোমার যা ইচছে ও চেষটা করো । <EOS>
+BLEU Score:  0.0
+
+> he agree with you  .
+= সে তোর সাথে একমত  ।
+< তোমার যা ইচছে ও বলতে পারেন । <EOS>
+BLEU Score:  0.0
+
+> he is not thirsty  .
+= তার তষণা পায নি  ।
+< উনি যা ইচছে তত খেতে । <EOS>
+BLEU Score:  0.0
+
+> he is not thirsty  .
+= তার তেষটা পাযনি  ।
+< উনি এখন ঘর পায । <EOS>
+BLEU Score:  0.0
+
+> he is only joking  .
+= সে খালি মজা করছে  ।
+< তোমার একজন অভিজঞ শিকষক । <EOS>
+BLEU Score:  0.0
+
+> he knows your name  .
+= আমি আপনাদের নাম জানি  ।
+< তোমার নাম ভলে নাম । <EOS>
+BLEU Score:  0.0
+
+> he was astonished  .
+= আমি আশচরযানবিত হযে গেছিলাম  ।
+< ও আমার দিদি ছিলেন । <EOS>
+BLEU Score:  0.0
+
+> he is out  .
+= সে বাইরে  ।
+< উনি একজন অভিজঞ । <EOS>
+BLEU Score:  0.0
+
+> you smokes  .
+= তমি ধমপান করে  ।
+< আপনারা ঠিক দৌডাও । <EOS>
+BLEU Score:  0.0
+
+> your glass is full  .
+= তোমার গলাসটি ভরতি  ।
+< তোমার বই তোমার হযে । <EOS>
+BLEU Score:  0.0
+
+> you are out  .
+= আপনি বাইরে  ।
+< আপনি সতযিই একা থাকবেন । <EOS>
+BLEU Score:  0.0
+
+> his stomach hurts  .
+= তারপেট বযাথা করছে  ।
+< ওনার এক বিসফোরণের বযাথা করছে । <EOS>
+BLEU Score:  0.3820903727892856
+
+> what's his name  ?
+= তার নাম কি  ?
+< ওনার নাম কী ? <EOS>
+BLEU Score:  0.0
+
+> he is a doctor  .
+= সে একজন ডাকতার  ।
+< উনি একজন ডাকতার । <EOS>
+BLEU Score:  0.6299605249474366
+
+> he may go there  .
+= সে ওখানে যেতে পারে  ।
+< উনি যা ইচছে উনি বলতে পারেন । <EOS>
+BLEU Score:  0.0
+
+> he is screaming  .
+= তিনি চিৎকার করছেন  ।
+< ও কাছাকাছিই । <EOS>
+BLEU Score:  0.0
+
+> he is taller than mary  .
+= সে মেরির থেকে লমবা  ।
+< আর মেরি দবারা আমার সাথে । <EOS>
+BLEU Score:  0.0
+
+> he likes reading books  .
+= সে বই পডতে ভালোবাসে  ।
+< উনি একজন অভিজঞ শিকষক যান । <EOS>
+BLEU Score:  0.0
+
+> they makes great burgers  .
+= তারা দারন বারগার বানাতে পারে  ।
+< টম ওর মাথা খজে করেছেন । <EOS>
+BLEU Score:  0.0
+
+> they now lives in boston  .
+= তারা এখন বসটনে থাকে  ।
+< টম এখন বসটনে থাকে । <EOS>
+BLEU Score:  0.7368062997280773
+
+> he reads lots of books  .
+= সে পরচর বই পডে  ।
+< উনি একজন অভিজঞ শিকষক । <EOS>
+BLEU Score:  0.0
+
+> you resigned in october  .
+= তমি অকটোবরে পদতযাগ করেছ  ।
+< আপনি সবসময উপসথিত কাশির করবেন । <EOS>
+BLEU Score:  0.0
+
+> he seldom eats at home  .
+= সে কমই বাডিতে খায  ।
+< ওনার বাচচাদের বাডিতে খায । <EOS>
+BLEU Score:  0.4641588833612779
+
+> you still live at home  .
+= তমি এখনো বাডিতেই থাকো  ।
+< আমরা এখনো বাডিতেই আছি । <EOS>
+BLEU Score:  0.0
+
+> you used to play guitar  .
+= তমি গীটার বাজাতে  ।
+< টম গীটার বাজাতো । <EOS>
+BLEU Score:  0.0
+
+> he took a lot of pictures  .
+= সে অনেক ছবি তলেছে  ।
+< উনি একজন অভিজঞ শিকষক । <EOS>
+BLEU Score:  0.0
+
+> he was at a movie theater  .
+= সে একটা সিনেমা হলে ছিল  ।
+< তার বাবা একটা কালো । <EOS>
+BLEU Score:  0.0
+
+> you will not tolerate this  .
+= আপনি এটা বরদাসত কররেন না  ।
+< এটা বরদাসত বরদাসত করবো । <EOS>
+BLEU Score:  0.0
+
+> you'll stay here until ten  .
+= আপনি এখানে দশটা অবধি থাকবেন  ।
+< এখানে সতযিই অবধি খশি ভালো হযেছিল । <EOS>
+BLEU Score:  0.0
+
+> he is also learning french  .
+= সেও ফরাসি শিখছি  ।
+< সবাই চিৎকার করা ছিলেন । <EOS>
+BLEU Score:  0.0
+
+> you're going to take a bath  .
+= তমি সনান করতে যাবে  ।
+< আমাকে একটা ঘর ভারা । <EOS>
+BLEU Score:  0.0
+
+> he is not feeling too well  .
+= তার শরীর খব একটা ভালো লাগছে না  ।
+< তোমার যা ইচছে ভাল পিযানো না । <EOS>
+BLEU Score:  0.0
+
+> they're playing football now  .
+= তারা এখন ফটবল খেলছি  ।
+< সবাই এখন ফটবল খেলছি । <EOS>
+BLEU Score:  0.7368062997280773
+
+> you're really happy for tom  .
+= আপনি টমের জনয খব খশি  ।
+< টম আর খশি খশি ছিলেন । <EOS>
+BLEU Score:  0.0
+
+> was the museum open yesterday  ?
+= জাদঘরটা কি গতকাল খোলা ছিলো  ?
+< জাদঘরটা কোথায ? <EOS>
+BLEU Score:  0.0
+
+> is there any mail for him  ?
+= আপনার জনয কোনো ডাক আছে  ?
+< আর কোন ঘর আর আছে ? <EOS>
+BLEU Score:  0.0
+
+> it is unfortunately false  .
+= দরভাগযবশতভাবে এটা মিথযা  ।
+< এই ততবটি ঠিক হযেছে । <EOS>
+BLEU Score:  0.0
+
+> he was raised in france  .
+= উনি ফরানসে বডো হযেছেন  ।
+< উনি ফরানসে বডো হযেছেন । <EOS>
+BLEU Score:  1.0
+
+> he was raised in france  .
+= ও ফরানসে বডো হযেছে  ।
+< উনি ফরানসে বডো হযেছেন । <EOS>
+BLEU Score:  0.0
+
+> you have twin daughters  .
+= আপনাদের দটো জমজ মেযে আছে  ।
+< তোমার কাছে একজন গরতবপরণ হযে গেলো । <EOS>
+BLEU Score:  0.0
+
+> this is driving him crazy  .
+= এটা তাকে পাগল করে দিচছে  ।
+< এই ঘরে কোনো ভাল হযে পরেছিলেন । <EOS>
+BLEU Score:  0.0
+
+> she kept his eyes closed  .
+= সে তার চোখ বনধ রেখেছিল  ।
+< ওনার নাম ওনার চোখ বনধ রেখেছিলেন । <EOS>
+BLEU Score:  0.0
+
+> what's his home address  ?
+= তার বাডির ঠিকানাটা কী  ?
+< ওনার বাডির ঠিকানাটা কী ? <EOS>
+BLEU Score:  0.7368062997280773
+
+> are they eating out tonight  ?
+= তারা কি আজ বাইরে খাবো  ?
+< টম কি আজ বাইরে খাবো ? <EOS>
+BLEU Score:  0.7937005259840998
+
+> he can eat all you want  .
+= তার যত ইচছে তত খেতে পারে  ।
+< আপনি যত ইচছে তত খেতে পারেন । <EOS>
+BLEU Score:  0.5227579585747103
+
+> i will be ten next april  .
+= আমি পরের এপরিলে দশ বছরের হবে  ।
+< আমি ঠিক সামনে দশ বছরের হবে । <EOS>
+BLEU Score:  0.5227579585747103
+
+> you're sleeping like a baby  .
+= তমি বাচচাদের মত ঘমাচছ  ।
+< তোমার বাচচাদের করতে মত । <EOS>
+BLEU Score:  0.0
+
+> you accepted his invitation  .
+= তমি তার আমনতরণ গরহণ করলে  ।
+< আপনি আমার সাথে কথা রাখে । <EOS>
+BLEU Score:  0.0
+
+> he was momentarily blinded  .
+= সে কষণিকের জনয অনধ হযে গেছিলো  ।
+< তোমার করে আমার মলপতরটা হযেছিলো । <EOS>
+BLEU Score:  0.0
+
+> you're not very good at this  .
+= তমি এতে খব একটা ভালো নও  ।
+< আমার বাবা আজ ভালো করে পারে । <EOS>
+BLEU Score:  0.0
+
+> you live in a small village  .
+= আপনি একট ছোট গরামে থাকেন  ।
+< ওটা একট সালে চেষটা করতে হবে । <EOS>
+BLEU Score:  0.0
+
+> you really don't want to go  .
+= b মনে হয আপনারা দজনেই টমকে চেনেন  ।
+< আপনি যা আমি বঝতে পারছি না । <EOS>
+BLEU Score:  0.0
+
+> i had a bitter experience  .
+= আমার এক তিকত অভিজঞতা হযেছিলো  ।
+< আমি এই মহরতে একটা গান লিখি । <EOS>
+BLEU Score:  0.0
+
+> i lose my temper easily  .
+= আমি সহজেই আমার মাথা গরম করে ফেলি  ।
+< আমি আমার ডান খজে খজে পেযেছিলাম । <EOS>
+BLEU Score:  0.0
+
+> he can't attend the meeting  .
+= সে সভাতে উপসথিত থাকতে পারবে না  ।
+< উনি আসতে পারবেন না । <EOS>
+BLEU Score:  0.0
+
+> he doesn't know what you mean  .
+= সে জানেনা আপনি কি বোঝাতে চাইছেন  ।
+< আমি তোর সঙগে কথা বলতে পারছি । <EOS>
+BLEU Score:  0.0
+
+> he is happy to see you again  .
+= তোমাকে আবার দেখে সে খশি হযেছে  ।
+< আপনাকে আবার দেখে খশি ছিলেন । <EOS>
+BLEU Score:  0.0
+
+> the library is to the right  .
+= লাইবরেরিটা ডানদিকে  ।
+< আমার বাবা ডানদিকে । <EOS>
+BLEU Score:  0.0
+
+> the rain continued all evening  .
+= বষটিটা সারাবিকেল ধরে চলেছিল  ।
+< আমরা লোক মানষ ছিল । <EOS>
+BLEU Score:  0.0
+
+> he is always complaining  .
+= সে সবসময অভিযোগ করে  ।
+< ও যা বললো তা সবসময । <EOS>
+BLEU Score:  0.0
+
+> he must go to the dentist  .
+= তার দাতের ডাকতারের কাছে যাওযা উচিৎ  ।
+< উনি দাতের ডাকতারের কাছে যাওযা উচিৎ । <EOS>
+BLEU Score:  0.8298265333662435
+
+> he asked tom where he'd gone  .
+= সে টমকে জিজঞাসা করল যে সে কোথায গেছিলো  ।
+< টম আর কিছ করার রাখেন । <EOS>
+BLEU Score:  0.0
+
+> he believes tom is doing well  .
+= তার মনে হয টম ভালোই আছে  ।
+< টম আমার পরতি পেতো দেবে । <EOS>
+BLEU Score:  0.0
+
+> let's find out where he is  .
+= সে কোথায আছে খোজা যাক  ।
+< উনি আমাদের বিষয কথা বলতে । <EOS>
+BLEU Score:  0.0
+
+> let's see what he is up to  .
+= দেখা যাক সে কি করছে  ।
+< ও আমার সাথে এখন শিকষক । <EOS>
+BLEU Score:  0.0
+
+> i didn't want that to happen  .
+= আমি চাইনি ওটা ঘটক  ।
+< আমি একদম আমি কোথায । <EOS>
+BLEU Score:  0.0
+
+> i don't feel like eating then  .
+= আমার তখন খেতে ইচছে করছে না  ।
+< আমার আবার খেতে ইচছে করে না । <EOS>
+BLEU Score:  0.0
+
+> i don't like to drink tea  .
+= আমার চা খেতে ভালো লাগে না  ।
+< আমার চা খেতে ভালো করতে চাই না । <EOS>
+BLEU Score:  0.5300277142349968
+
+> i don't use twitter anymore  .
+= আমি আর টইটার বযবহার করি না  ।
+< আমি আর ফেসবক বযবহার করি না । <EOS>
+BLEU Score:  0.6114214174657597
+
+> i don't want to be like this  .
+= আমি এইরকম হতে চাই না  ।
+< আমার এই আজ চাই না । <EOS>
+BLEU Score:  0.3684031498640387
+
+> i found the magazine interesting  .
+= আমার মযাগাজিনটা আকরষণীয বলে মনে হযেছিল  ।
+< আমি আজ দপরে যাচছি । <EOS>
+BLEU Score:  0.0
+
+> i have a one-year contract  .
+= আমার কাছে এক বছরের চকতি আছে  ।
+< আমার একটা ঘর পডে আছে । <EOS>
+BLEU Score:  0.0
+
+> i never listen to him anyway  .
+= আমি এমনিতেও কখনও তার কথা শনি না  ।
+< আমি খালি আমার ইমেলটা পাঠাতে চাই । <EOS>
+BLEU Score:  0.0
+
+> i only speak english with tom  .
+= আমি টমের সঙগে খালি ইংরাজি ভাষায কথা বলি  ।
+< আমি টমকে খালি খজে করতে চাই । <EOS>
+BLEU Score:  0.0
+
+> i only speak a little english  .
+= আমি খালি একট ইংরাজি ভাষায কথা বলি  ।
+< আমার একটা ঘর একটা টিকিট চাই । <EOS>
+BLEU Score:  0.0
+
+> i used to swim in this pond  .
+= আমি এই পকরে সাতার কাটতাম  ।
+< আমি এই নদীতে সাতার কাটতাম । <EOS>
+BLEU Score:  0.5
+
+> i'd like to book my ticket  .
+= আমি আমার টিকিটটি বক করতে চাই  ।
+< আমি আমার টিকিটটি বাতিল করতে চাই । <EOS>
+BLEU Score:  0.6114214174657597
+
+> i'd like to change my school  .
+= আমি আমার সকলটি পালটাতে চাই  ।
+< আমি আমার ঘরটা পালটাতে চাই । <EOS>
+BLEU Score:  0.5
+
+> i'll certainly go tomorrow  .
+= আমি নিশচই আগামীকাল যাবো  ।
+< আমি খালি উপসথিত শর করব । <EOS>
+BLEU Score:  0.0
+
+> i'm catching the 11:00 bus  .
+= আমি ১১ঃ০০টার বাসটা ধরতে যাচছি  ।
+< আমি সতযিই হোটেলে রযেছি । <EOS>
+BLEU Score:  0.0
+
+> i'm proud of how i acted  .
+= আমি যে ভাবে বযবহার করেছি তাতে আমি গরবিত  ।
+< আমি আমার কাছ থেকে অনেক ভালো করেছি । <EOS>
+BLEU Score:  0.0
+
+> i'm sorry i kept him waiting  .
+= আমাকে কষমা করবেন আমি তাহাকে অপেকষা করিযে রেখেছিলাম  ।
+< আমি কষমা করে অপেকষা করতে অপেকষা করিযে রেখেছিলাম । <EOS>
+BLEU Score:  0.41491326668312173
+
+> i'm sorry i kept him waiting  .
+= আমাকে কষমা করবে আমি তাকে অপেকষা করিযে রেখেছিলাম  ।
+< আমি কষমা করে অপেকষা করিযে রেখেছিলাম । <EOS>
+BLEU Score:  0.41491326668312173
+
+> i'm sorry, i can stay long  .
+= আমায কষমা করবেন, আমি বেশিকষণ থাকতে পারবো  ।
+< আমি কষমা আজ আমি গরবিত নই । <EOS>
+BLEU Score:  0.0
+
+> i'm starting to learn english  .
+= আমি ইংরাজি শেখা শর করছি  ।
+< আমি ইংরাজি পরতে রযেছি । <EOS>
+BLEU Score:  0.0
+
+> it was dark under the table  .
+= টেবিলের নিচে অনধকার ছিল  ।
+< আমি সতযিই সামনে ।" । <EOS>
+BLEU Score:  0.0
+
+> we get together once a year  .
+= আমরা বছরে একবার করে একতরিত হই  ।
+< আমরা আজ বছরের তিরিশে একবার । <EOS>
+BLEU Score:  0.0
+
+> we have to move very slowly  .
+= আমাদেরকে খব ধীরে চলতে হবে  ।
+< আমার একটা ঘর চেযেছিলো আছে । <EOS>
+BLEU Score:  0.0
+
+> we traveled in north america  .
+= আমরা উততর আমেরিকাতে ঘরলাম  ।
+< আমরা দকষিণ আমেরিকাতে খজে পেযেছিলাম । <EOS>
+BLEU Score:  0.0
+
+> what time does the train leave  ?
+= টরেনটা কটার সময ছাডে  ?
+< টরেনটা কটার সময ছাডে ? <EOS>
+BLEU Score:  1.0
+
+> what's this called in english  ?
+= ইংরেজিতে এটাকে কী বলে  ?
+< আর কী হলো ? <EOS>
+BLEU Score:  0.0
+
+> when does the next train leave  ?
+= পরের টরেনটি কখন ছাডবে  ?
+< পরের টরেনটা কখন খোলা ? <EOS>
+BLEU Score:  0.0
+
+> he is looking for a good hotel  .
+= সে একটা ভাল হোটেল খজছে  ।
+< সতযিই একটা ঘর টপি ভাল । <EOS>
+BLEU Score:  0.0
+
+> i couldn't move my left foot  .
+= আমি আমার নাম পাটা নাডাতে পারিনি  ।
+< আমি আমার ডান পাটা নাডাতে পারিনি । <EOS>
+BLEU Score:  0.6114214174657597
+
+> i don't go to work on fridays  .
+= আমি শকরবার করে কাজে যাই না  ।
+< আমি ঠিক বোঝাতে হতে দিও । <EOS>
+BLEU Score:  0.0
+
+> i found that article interesting  .
+= আমার ওই আরটিকেলটা আকরষণীয বলে মনে হযেছিল  ।
+< আমি আমার মাযের উপর খজে পেযেছি । <EOS>
+BLEU Score:  0.0
+
+> i got on the bus for london  .
+= আমি লনডনে যাওযার বাসে উঠেছিলাম  ।
+< আমি লনডনে সালে হিরোশিমাতে খজছি । <EOS>
+BLEU Score:  0.0
+
+> i haven't done this for months  .
+= আমি এটা অনেক মাস ধরে করিনি  ।
+< আমি খালি করে খজে কল রেখেছিলাম । <EOS>
+BLEU Score:  0.0
+
+> i just don't know what to say  .
+= আমি জানিনা ঠিক কি বলবো  ।
+< আমি জানিনা ঠিক কি বলবো । <EOS>
+BLEU Score:  1.0
+
+> i learned to live without you  .
+= আমি তোমাকে ছাডা বাচতে শিখেছি  ।
+< আমি তোমার ফোন নামবারটা চাই । <EOS>
+BLEU Score:  0.0
+
+> he like reading mystery novels  .
+= তার রহসয উপনযাস পডতে ভালো লাগে  ।
+< উনি এখনো আমার একটা ছোট । <EOS>
+BLEU Score:  0.0
+
+> she want to be more independent  .
+= সে আরও সবাধীন হতে চায  ।
+< তোমার যা ইচছে টম চেষটা করতে পারবে । <EOS>
+BLEU Score:  0.0
+
+> i want to eat chinese food  .
+= আমি চাইনিজ খাবার খেতে চাই  ।
+< আমি খালি আজ খেতে চাই । <EOS>
+BLEU Score:  0.4054801330382267
+
+> what time does the bus leave  ?
+= বাসটা কটার সময ছাডে  ?
+< বাসটা কটার সময ছাডে ? <EOS>
+BLEU Score:  1.0
+
+> when do you usually go to school  ?
+= আপনি সাধারণত কটার সময সকলে যান  ?
+< আপনি সাধারণত কটার সময শতে যান ? <EOS>
+BLEU Score:  0.6114214174657597
+
+> when do you usually go to school  ?
+= তমি সাধারণত কটার সময সকলে যাও  ?
+< আপনি সাধারণত কটার সময শতে যান ? <EOS>
+BLEU Score:  0.3364781731479949
+
+> where are you going on sunday  ?
+= রবিবার আপনি কোথায যাচছেন  ?
+< আপনি কোথায যাচছো ? <EOS>
+BLEU Score:  0.0
+
+> where are you going on sunday  ?
+= রবিবার তমি কোথায যাচছো  ?
+< আপনি কোথায যাচছেন ? <EOS>
+BLEU Score:  0.0
+
+> where can i buy that book  ?
+= আমি ওই বইটা কোথা থেকে কিনতে পারব  ?
+< আমি কি ওটা কোথা থেকে কিনতে পারব ? <EOS>
+BLEU Score:  0.5984084805885754
+
+> why aren't you coming with them  ?
+= তাদের সাথে আসছেন না কেন  ?
+< আপনি এখানে তোমার ? ? <EOS>
+BLEU Score:  0.0
+
+> why aren't you coming with them  ?
+= তাদের সাথে আসছো না কেন  ?
+< আপনি এখানে তোমার ? ? <EOS>
+BLEU Score:  0.0
+
+> would you like to go outside  ?
+= আপনি কি বাইরে যাবেন  ?
+< আপনি কি ভেতরে আসবেন ? <EOS>
+BLEU Score:  0.0
+
+> would you like to go outside  ?
+= আপনারা কি বাইরে যাবেন  ?
+< আপনি কি ভেতরে আসবেন ? <EOS>
+BLEU Score:  0.0
+
+> would you like to go outside  ?
+= তমি কি বাইরে যাবে  ?
+< আপনি কি ভেতরে আসবেন ? <EOS>
+BLEU Score:  0.0
+
+> would you like to go outside  ?
+= তোমরা কি বাইরে যাবে  ?
+< আপনি কি ভেতরে করেছেন ? <EOS>
+BLEU Score:  0.0
+
+> you can't eat anything you want  .
+= আপনার যেটা ইচছে হয সেটা খেতে পারেন না  ।
+< তোমার যেটা ইচছে হয সেটা খেতে পারেন । <EOS>
+BLEU Score:  0.6524779401948105
+
+> you can't eat anything you want  .
+= তোমার যেটা ইচছে হয সেটা খেতে পারো না  ।
+< তোমার যেটা ইচছে হয সেটা খেতে পারেন । <EOS>
+BLEU Score:  0.6524779401948105
+
+> please show me the red shirt  .
+= আমাকে একট লাল জামাটা দেখাবেন  ।
+< আমাকে একট সবজ জামাটা দেখাবেন । <EOS>
+BLEU Score:  0.5
+
+> please wait till i comes back  .
+= আমি আসা পরযনত দযা করে অপেকষা করন  ।
+< আমি আপনার রাতে সেটা করতে অপেকষা করতে পারবেন । <EOS>
+BLEU Score:  0.0
+
+> he can't say whatever he wants  .
+= ওনার যা ইচছে উনি বলতে পারেন না  ।
+< ওনার যা ইচছে উনি বলতে পারেন । <EOS>
+BLEU Score:  0.7469007910928608
+
+> she can't say whatever she wants  .
+= ওর যা ইচছে ও বলতে পারে না  ।
+< তার যা ইচছে সে বলতে পারেন । <EOS>
+BLEU Score:  0.0
+
+> she can't say whatever she wants  .
+= তার যা ইচছে সে বলতে পারে না  ।
+< তার যা ইচছে সে বলতে পারে । <EOS>
+BLEU Score:  0.7469007910928608
+
+> she can say whatever she wants  .
+= তার যা ইচছে তিনি বলতে পারেন না  ।
+< তার যা ইচছে সে বলতে পারে । <EOS>
+BLEU Score:  0.3098990471205467
+
+> someday you'll run like the wind  .
+= কোনো একদিন তমি হাওযার মত দৌডাবে  ।
+< কোনো একদিন ডানদিকে বাদিকে তত যাবেন । <EOS>
+BLEU Score:  0.0
+
+> english is her native language  .
+= ইংরেজি তার মাতভাষা  ।
+< সপযানিশ তার মাতভাষা । <EOS>
+BLEU Score:  0.6299605249474366
+
+> english is her native language  .
+= ইংরেজি তার মাতভাষা  ।
+< সপযানিশ তার মাতভাষা । <EOS>
+BLEU Score:  0.6299605249474366
+
+> french is her native language  .
+= ফরাসি ওনার মাতভাষা  ।
+< সপযানিশ তার মাতভাষা । <EOS>
+BLEU Score:  0.0
+
+> don't speak english in the class  .
+= কলাসে ইংরেজিতে কথা বলবে না  ।
+< আমরা লোক কথা বলবে না । <EOS>
+BLEU Score:  0.5848035476425733
+
+> french is not my mother tongue  .
+= ফরাসি আমার মাতভাষা নয  ।
+< আমার মা মাতভাষা নয । <EOS>
+BLEU Score:  0.5108729549290354
+
+> even i was somewhat impressed  .
+= এমনকি আমিও কিছটা পরভাবিত হযেছিল  ।
+< আমার বাবা ভেতরে হযেছিল হযেছিল । <EOS>
+BLEU Score:  0.0
+
+> finish that as soon as possible  .
+= যত তাডাতাডি সমভব ওটা শেষ করন  ।
+< যত তাডাতাডি সমভব এটা শেষ কর । <EOS>
+BLEU Score:  0.3624601243342974
+
+> finish that as soon as possible  .
+= যত তাডাতাডি সমভব ওটা শেষ কর  ।
+< যত তাডাতাডি সমভব এটা শেষ কর । <EOS>
+BLEU Score:  0.6114214174657597
+
+> english isn't difficult to learn  .
+= ইংরাজি শেখা কঠিন নয  ।
+< আমরা এই শেখা আসতে চাই । <EOS>
+BLEU Score:  0.0
+
+> he did not work on friday night  .
+= উনি শকরবার রাতে কাজ করেন নি  ।
+< তোমার রবিবার রাতে কাজ করেন নি । <EOS>
+BLEU Score:  0.6586337560083495
+
+> he did not work on monday night  .
+= সে সোমবার রাতে কাজ করে নি  ।
+< তোমার রবিবার রাতে কাজ করেন । <EOS>
+BLEU Score:  0.0
+
+> how do you write your first name  ?
+= আপনার পরথম নামটি কিভাবে লেখেন  ?
+< আপনার পদবিটি কিভাবে লেখেন ? <EOS>
+BLEU Score:  0.4054801330382267
+
+> you've never told anyone about this  .
+= আপনি কোনদিন কাউকে এই বযাপারে বলোনি  ।
+< এই আজ এই রকম বনধ এই করতে । <EOS>
+BLEU Score:  0.0
+
+> is there another way to come here  ?
+= এখানে আসার আর কোন রাসতা আছে  ?
+< টম কি ভেতরে করার আছে ? <EOS>
+BLEU Score:  0.0
+
+> my mother is always getting angry  .
+= আমার মা সবসময রেগে যান  ।
+< আমার বাবা সবসময দেখতে যান । <EOS>
+BLEU Score:  0.0
+
+> my mother is very good at fishing  .
+= আমার মা মাছ ধরাতে খব ভাল  ।
+< আমার বাবা মাছ ধরাতে খব ভাল । <EOS>
+BLEU Score:  0.6999028047752016
+
+> my father can play golf very well  .
+= আমার বাবা খব ভাল গলফ খেলতে পারে  ।
+< আমার মা আসতে গলফ খেলতে পারে । <EOS>
+BLEU Score:  0.4469517675482838
+
+> my father knows how to make cakes  .
+= আমার বাবা জানে কিভাবে কেক বানাতে হয  ।
+< আমার মা কোনো কিছ বানাতে হয । <EOS>
+BLEU Score:  0.28768479133239405
+
+> his name was omitted from the list  .
+= তালিকাটি থেকে তার নামটা বাদ গেছে  ।
+< আমার থেকে অনেক বাদ ছিল । <EOS>
+BLEU Score:  0.0
+
+> his neighbor's name is tom jackson  .
+= তার পরতিবেশীর নাম টম জযাকসন  ।
+< টম আমার পরতিবেশীর পালটে আর । <EOS>
+BLEU Score:  0.0
+
+> she doesn't want to talk about that  .
+= সে ওই বিষয কথা বলতে চান না  ।
+< ও এই বিষয কথা বলতে চায না । <EOS>
+BLEU Score:  0.354745852992596
+
+> the plane arrived exactly at ten  .
+= বিমানটি ঠিক দশটার সময পৌছাল  ।
+< আমি শেরাটন হোটেলে তিরিশে উঠেছি । <EOS>
+BLEU Score:  0.0
+
+> the police warned them to keep back  .
+= পলিশ তাদের পেছনে যেতে আদেশ দিল  ।
+< আমরা একটা যখন ফিরবো চেষটা করব । <EOS>
+BLEU Score:  0.0
+
+> i'm going to study english next year  .
+= আমি পরের বছর ইংরেজি শিখবো  ।
+< আমি পরের বছর হলে ছিলাম । <EOS>
+BLEU Score:  0.4054801330382267
+
+> bread are usually made from wheat  .
+= রটি সাধারণত মযদা দিযে তৈরি হয  ।
+< নডলস কষমা মযদা আমার নেশা । <EOS>
+BLEU Score:  0.0
+
+> patience is essential for a student  .
+= একজন ছাতরের জনয ধৈরযয অতযাবশযক  ।
+< একটা একটা ঘর জনয গরম । <EOS>
+BLEU Score:  0.0
+
+> the audience was mostly teacher  .
+= দরশকদের মধযে বেশিরভাগই শিকষক ছিলেন  ।
+< দরশকদের মধযে বেশিরভাগই বযবসাযী ছিলো । <EOS>
+BLEU Score:  0.4054801330382267
+
+> the soldiers surrounded the town  .
+= সৈনযরা শহরটাকে ঘিরে ফেললো  ।
+< টম লডাইটা সালে সমাপত । <EOS>
+BLEU Score:  0.0
+
+> tom jackson has written four books  .
+= টম জযাকসন চারটে বই লিখেছেন  ।
+< টম আর কিছ মারা গেলো । <EOS>
+BLEU Score:  0.0
+
+> he almost forgot about the meeting  .
+= সে মিটিঙগের কথাটা পরায ভলেই গেছিলো  ।
+< উনি ফল ছাডা অনয পডে । <EOS>
+BLEU Score:  0.0
+
+> he certainly plays the guitar well  .
+= সে গীটারটা সতযিই খব ভালো বাজায  ।
+< চললিশ জন সতযিই খব ভালো বাজায । <EOS>
+BLEU Score:  0.6586337560083495
+
+> tom has sang more than 300 songs  .
+= টম ৩০০র ও বেশি গান গেযেছে  ।
+< টম ৩০০র আর আর গান লিখেছে । <EOS>
+BLEU Score:  0.0
+
+> tom reluctantly went to the doctor  .
+= অনিচছা সতবেও টম ডাকতারের কাছে গেলো  ।
+< টম আর কিছ পদতযাগ পডে । <EOS>
+BLEU Score:  0.0
+
+> she seems to be listening carefully  .
+= সে খব মন দিযে শনছে বলে মনে হচছে  ।
+< তোমার ছেলে কী বলতে পারে বলে মনে হচছে । <EOS>
+BLEU Score:  0.3624601243342974
+
+> turn left at the next intersection  .
+= পরের মোডটায বামদিকে বেকে যাবেন  ।
+< পরের মোডটায ডানদিকে বেকে যাবেন । <EOS>
+BLEU Score:  0.5
+
+> i can't sleep because of the noise  .
+= আওযাজের জনয আমি ঘমাতে পারছি না  ।
+< আমি সতযিই জনয আমরা করতে পারছি না । <EOS>
+BLEU Score:  0.31420867132610547
+
+> you can't sleep because of the noise  .
+= শবদের জনয আমি ঘমাতে পারছি না  ।
+< আপনি কোনো আসতে পারবে না । <EOS>
+BLEU Score:  0.0
+
+> what time does the dining room close  ?
+= খাবার ঘরটা কখন বনধ হয  ?
+< আপনি কতকষণ কখন খোলে ? <EOS>
+BLEU Score:  0.0
+
+> what time does the next bus leave  ?
+= পরের বাসটা কটার সময ছাডে  ?
+< পরের বাসটি কখন ছাডবে ? <EOS>
+BLEU Score:  0.0
+
+> when did you begin studying french  ?
+= তমি ফরাসি পডা কবে থেকে শর করলে  ?
+< আপনি কি দযা করে রেজিসটারটায করতে পারবেন ? <EOS>
+BLEU Score:  0.0
+
+> when did you begin studying french  ?
+= আপনি ফরাসি পডা কবে থেকে শর করলেন  ?
+< আপনি কি দযা করে রেজিসটারটায করতে পারবেন ? <EOS>
+BLEU Score:  0.0
+
+> where is the entrance to the school  ?
+= সকলে ঢোকার রাসতাটি কোথায  ?
+< বাসগলো কতকষণ কত ? <EOS>
+BLEU Score:  0.0
+
+Average BLEU:  0.1582671258748501
+
+Process finished with exit code 0

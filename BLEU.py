@@ -109,7 +109,7 @@ def geometric_mean(precisions):
 
 def BLEU(candidate, references):
     precisions = []
-    for i in range(3):
+    for i in range(1):
         pr, bp = count_ngram(candidate, references, i+1)
         precisions.append(pr)
     bleu = geometric_mean(precisions) * bp
