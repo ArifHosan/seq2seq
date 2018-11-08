@@ -11,6 +11,7 @@ import torch
 import torch.nn as nn
 from torch import optim
 import torch.nn.functional as F
+
 plt.switch_backend('agg')
 from Language import Lang
 
@@ -30,13 +31,13 @@ eng_prefixes = (
 
 
 def unicodeToAscii(s):
-    return ''.join(c for c in unicodedata.normalize('NFD', s)if unicodedata.category(c) != 'Mn')
+    return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
 
 
 def normalizeString(s):
     s = unicodeToAscii(s.lower().strip())
     s = re.sub(r"([.!?।])", r" \1", s)
-    #s = re.sub(r"[^a-zA-Z.!?]+", r" ", s)
+    # s = re.sub(r"[^a-zA-Z.!?]+", r" ", s)
     return s
 
 
@@ -86,7 +87,7 @@ def indexesFromSentence(lang, sentence):
         if word in lang.word2index:
             indexes.append(lang.word2index[word])
         else:
-            indexes.append(SOS_token)
+            indexes.append(0)
     return indexes
 
 
@@ -127,6 +128,13 @@ def read_test():
     return pairs
 
 
+def check_if_unk(lang, sentence):
+    for word in sentence.split(' '):
+        if word not in lang.word2index:
+            return word
+    return ''
+
+
 def read_dict():
     print("Reading dict...")
     lines = open('data/dictionary.txt', encoding='utf-8').read().strip().split('\n')
@@ -138,3 +146,6 @@ def read_dict():
         if not pair[0] in dict:
             dict[pair[0]] = pair[1]
     return dict
+
+
+word_dict = read_dict()

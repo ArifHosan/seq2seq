@@ -3,7 +3,7 @@ import random
 
 from BLEU import calculate_bleu
 from Helper import showAttention
-from Util import tensorFromSentence, MAX_LENGTH, DEVICE, SOS_token, EOS_token
+from Util import tensorFromSentence, MAX_LENGTH, DEVICE, SOS_token, EOS_token, check_if_unk, word_dict
 
 
 def evaluate(encoder, decoder, sentence, input_lang, output_lang, max_length=MAX_LENGTH):
@@ -59,6 +59,19 @@ def evaluateRandomly(encoder, decoder, input_lang, output_lang, pairs, n=10):
 def evaluateAndShowAttention(input_sentence, encoder1, attn_decoder1, input_lang, output_lang):
     output_words, attentions = evaluate(
         encoder1, attn_decoder1, input_sentence, input_lang, output_lang)
+
+    replace_index = 0
+    if len(output_words) == 4:
+        replace_index = 1
+    elif len(output_words) > 4:
+        replace_index = 2
+
+    unk = check_if_unk(input_lang, input_sentence)
+    if unk != '' and unk in word_dict:
+        output_words[replace_index] = word_dict[unk]
+    elif unk != '':
+        output_words[replace_index] = "UNK"
+
     print('input =', input_sentence)
     print('output =', ' '.join(output_words))
     showAttention(input_sentence, output_words, attentions)
