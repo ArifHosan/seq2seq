@@ -127,8 +127,8 @@ def calculate_bleu(candidate, reference):
 if __name__ == "__main__":
     # candidate, references = fetch_data(sys.argv[1], sys.argv[2])
     # candidate, references = fetch_data("can.txt","ref.txt")
-    candidate = ["Good Morning fasf sfas safs"]
-    references = [["Good Morning fasf sfasf sfasf"]]
+    candidate = ["Good Morning"]
+    references = [["Good Morning2"]]
     bleu = BLEU(candidate, references)
     print(bleu)
 

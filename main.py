@@ -13,12 +13,13 @@ def take_input():
         sentence = input(">>")
         if sentence == "#":
             break
-        words = sentence.split(" ")
-        if len(words) == 1 and sentence in word_dict:
-            print('input =', sentence)
-            print('output =', ' ', word_dict[sentence])
-        else:
-            evaluateAndShowAttention(sentence, encoder1,attn_decoder1,input_lang,output_lang)
+        sentence = sentence.lower()
+        # words = sentence.split(" ")
+        # if len(words) == 1 and sentence in word_dict:
+        #     print('input =', sentence)
+        #     print('output =', ' ', word_dict[sentence])
+        # else:
+        evaluateAndShowAttention(sentence, encoder1,attn_decoder1,input_lang,output_lang)
 
 
 input_lang, output_lang, pairs = prepareData('eng', 'ben', False)
@@ -48,8 +49,7 @@ attn_decoder1 = load_model("model/de_final_data")
 # evaluateAndShowAttention("we made mistakes .", encoder1,attn_decoder1,input_lang,output_lang)
 # evaluateAndShowAttention("do not speak ill of others", encoder1,attn_decoder1,input_lang,output_lang)
 
-test_pairs = read_test()
-evaluate_all_test(encoder1,attn_decoder1,input_lang,output_lang,test_pairs)
-#word_dict = read_dict()
-#take_input()
+# test_pairs = read_test()
+# evaluate_all_test(encoder1,attn_decoder1,input_lang,output_lang,test_pairs)
+take_input()
 
