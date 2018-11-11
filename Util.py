@@ -137,7 +137,7 @@ def check_if_unk(lang, sentence):
 
 def read_dict():
     print("Reading dict...")
-    lines = open('data/dictionary.txt', encoding='utf-8').read().strip().split('\n')
+    lines = open('data/en_bn_2_col.tsv', encoding='utf-8').read().strip().split('\n')
     pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
     dict = {}
     for pair in pairs:

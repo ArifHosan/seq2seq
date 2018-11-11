@@ -128,7 +128,7 @@ if __name__ == "__main__":
     # candidate, references = fetch_data(sys.argv[1], sys.argv[2])
     # candidate, references = fetch_data("can.txt","ref.txt")
     candidate = ["Good Morning"]
-    references = [["Good Morning2"]]
+    references = [["Good"]]
     bleu = BLEU(candidate, references)
     print(bleu)
 
