@@ -28,7 +28,7 @@ input_lang, output_lang, pairs = prepareData('eng', 'ben', False)
 hidden_size = 256
 # encoder1 = EncoderRNN(input_lang.n_words, hidden_size).to(DEVICE)
 # attn_decoder1 = AttnDecoderRNN(hidden_size, output_lang.n_words, dropout_p=0.1).to(DEVICE)
-# trainIters(encoder1, attn_decoder1, input_lang, output_lang, pairs, 75000, print_every=100)
+# trainIters(encoder1, attn_decoder1, input_lang, output_lang, pairs, 1000, print_every=100)
 
 # save_model_param(encoder1,"model/en")
 # save_model_param(attn_decoder1, "model/de")
@@ -49,7 +49,9 @@ attn_decoder1 = load_model("model/de_final_data")
 # evaluateAndShowAttention("we made mistakes .", encoder1,attn_decoder1,input_lang,output_lang)
 # evaluateAndShowAttention("do not speak ill of others", encoder1,attn_decoder1,input_lang,output_lang)
 
-test_pairs = read_test()
-evaluate_all_test(encoder1,attn_decoder1,input_lang,output_lang,test_pairs)
-# take_input()
+# test_pairs = read_test()
+# evaluate_all_test(encoder1,attn_decoder1,input_lang,output_lang,test_pairs)
+take_input()
+
+writer.close()
 

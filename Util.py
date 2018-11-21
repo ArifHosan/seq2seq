@@ -6,6 +6,8 @@ import string
 import re
 import random
 from io import BytesIO
+
+from tensorboardX import SummaryWriter
 from tensorflow.python.lib.io import file_io
 import torch
 import torch.nn as nn
@@ -148,4 +150,5 @@ def read_dict():
     return dict
 
 
+writer = SummaryWriter('plots/tb/')
 word_dict = read_dict()

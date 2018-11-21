@@ -1,0 +1,41 @@
+Is this Tom's book? Is that your book?
+is this my book ?   এটা কি আমার বইটা ? <EOS>
+is this your book ? এটা কি আপনার বই ? <EOS>
+was that your book ?    ওটা কি আপনার বই ? <EOS>
+------------------------------------------------
+
+
+
+
+You can eat whatever you like.
+He can eat whatever he likes    ও যা ইচছে ও বলতে পারে । <EOS>
+i can eat whatever i like   আমার ইচছে হয খেতে পছনদ করি । <EOS>
+she can speak whatever she like .   উনি যা ইচছে ও বলতে পারে । <EOS>
+i can speak .   আমি কথা বলতে পারি । <EOS>
+he can speak .  সে বলতে পারে । <EOS>
+i can marry .   আমি এটা বিযে করা পারি । <EOS> <from dict>
+
+
+I'm screaming.  Tom's screaming.    We're screaming.
+he was screaming    সে চিৎকার করছে <EOS>
+i was not screaming .   আমি চিৎকার নই । <EOS>
+i am screaming  আমি চিৎকার করছি <EOS>
+
+
+I'll take him.  I feel bad for him.
+i renounce him  আমি ওনাকে আনষঠানিকভাবে পরিতযাগ করা । <EOS>
+i feel good .   আমার ভাল লাগছে । <EOS>
+i will do it .  আমি এটা করতে । <EOS>
+
+
+What he said is not true.   What you said is not true.
+what he said is true .  ও যা বললো তা সতযি । <EOS>
+what he said is not true .  ও যা বললো তা সতযি নয । <EOS>
+
+
+What are you doing? What are you here for?
+what are you doing here ?   তমি এখানে কি এখানে ? <EOS>
+what are you doing there ?  তমি কি ওখানে জনমেছিলে ? <EOS>
+
+My father is a doctor.  He is a doctor.
+where is the doctor ?   ডাকতার কোথায ? <EOS>

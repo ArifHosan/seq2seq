@@ -5,7 +5,7 @@ import random
 import time
 
 from Helper import timeSince, showPlot
-from Util import MAX_LENGTH, DEVICE, SOS_token, EOS_token, tensorsFromPair, save_model
+from Util import MAX_LENGTH, DEVICE, SOS_token, EOS_token, tensorsFromPair, save_model, writer
 
 teacher_forcing_ratio = 0.5
 
@@ -88,6 +88,7 @@ def trainIters(encoder, decoder, input_lang, output_lang, pairs, n_iters, print_
         plot_loss_total += loss
 
         if iter % print_every == 0:
+            writer.add_scalar("train/loss", loss, iter)
             print_loss_avg = print_loss_total / print_every
             print_loss_total = 0
             print('%s (%d %d%%) %.4f' % (timeSince(start, iter / n_iters),

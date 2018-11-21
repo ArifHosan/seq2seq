@@ -1,9 +1,8 @@
 import torch
 import random
-
 from BLEU import calculate_bleu
 from Helper import showAttention
-from Util import tensorFromSentence, MAX_LENGTH, DEVICE, SOS_token, EOS_token, check_if_unk, word_dict
+from Util import tensorFromSentence, MAX_LENGTH, DEVICE, SOS_token, EOS_token, check_if_unk, word_dict, writer
 
 
 def evaluate(encoder, decoder, sentence, input_lang, output_lang, max_length=MAX_LENGTH):
@@ -52,7 +51,9 @@ def evaluateRandomly(encoder, decoder, input_lang, output_lang, pairs, n=10):
         output_sentence = ' '.join(output_words)
         print('<', output_sentence)
         output_words.pop(-1)
-        total_bleu += calculate_bleu(pair[1], ' '.join(output_words))
+        bleu = calculate_bleu(pair[1], ' '.join(output_words))
+        total_bleu += bleu
+        writer.add_scalar('Evaluate/Random/Accuracy', bleu, i)
         print('')
     print("Average BLEU: ",total_bleu/n)
 
@@ -88,6 +89,9 @@ def evaluate_all_test(encoder, decoder, input_lang, output_lang, pairs):
         output_sentence = ' '.join(output_words)
         print('<', output_sentence)
         output_words.pop(-1)
-        total_bleu += calculate_bleu(pair[1], ' '.join(output_words))
+        bleu = calculate_bleu(pair[1], ' '.join(output_words))
+        total_bleu += bleu
+        writer.add_scalar('Evaluate/Test/Accuracy', bleu, i)
         print('')
     print("Average BLEU: ",total_bleu/n)
+    # writer.close()

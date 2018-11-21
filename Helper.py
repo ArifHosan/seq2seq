@@ -2,7 +2,8 @@
 import time
 import math
 import matplotlib.ticker as ticker
-from Util import plt
+from Util import plt, writer
+
 
 def asMinutes(s):
     m = math.floor(s / 60)
@@ -51,5 +52,6 @@ def showAttention(input_sentence, output_words, attentions):
     plt.show()
     try:
         plt.savefig("plots/" + input_sentence +".png")
+        writer.add_figure("attention/" + input_sentence, plt.gcf())
     except:
         pass
